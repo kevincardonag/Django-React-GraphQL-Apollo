@@ -1,0 +1,20 @@
+Collecting graphene
+  Downloading https://files.pythonhosted.org/packages/a6/75/73bec3147071034ba73fad9aa2a8f4a41910a93b2cba1bc579420752aa3b/graphene-2.1.3-py2.py3-none-any.whl (95kB)
+Collecting aniso8601<4,>=3 (from graphene)
+  Downloading https://files.pythonhosted.org/packages/17/13/eecdcc638c0ea3b105ebb62ff4e76914a744ef1b6f308651dbed368c6c01/aniso8601-3.0.2-py2.py3-none-any.whl
+Collecting graphql-core<3,>=2.1 (from graphene)
+  Downloading https://files.pythonhosted.org/packages/35/dd/2dff553c929d059e53a95a8bcff66f6a3930d736dfea17f88d16229eaf84/graphql_core-2.1-py2.py3-none-any.whl (249kB)
+Collecting graphql-relay<1,>=0.4.5 (from graphene)
+  Downloading https://files.pythonhosted.org/packages/5e/b0/b91fadc180544fc9e3c156d7049561fd5f1e2211d26fd29033548fd50934/graphql-relay-0.4.5.tar.gz
+Collecting promise<3,>=2.1 (from graphene)
+  Downloading https://files.pythonhosted.org/packages/5a/81/221d09d90176fd90aed4b530e31b8fedf207385767c06d1d46c550c5e418/promise-2.2.1.tar.gz
+Collecting six<2,>=1.10.0 (from graphene)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting rx>=1.6.0 (from graphql-core<3,>=2.1->graphene)
+  Downloading https://files.pythonhosted.org/packages/33/0f/5ef4ac78e2a538cc1b054eb86285fe0bf7a5dbaeaac2c584757c300515e2/Rx-1.6.1-py2.py3-none-any.whl (179kB)
+Installing collected packages: aniso8601, six, promise, rx, graphql-core, graphql-relay, graphene
+  Running setup.py install for promise: started
+    Running setup.py install for promise: finished with status 'done'
+  Running setup.py install for graphql-relay: started
+    Running setup.py install for graphql-relay: finished with status 'done'
+Successfully installed aniso8601-3.0.2 graphene-2.1.3 graphql-core-2.1 graphql-relay-0.4.5 promise-2.2.1 rx-1.6.1 six-1.12.0
