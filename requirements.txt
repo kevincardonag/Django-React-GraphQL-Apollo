@@ -1,0 +1,2 @@
+graphene>=2.0
+Django=2.1.5
