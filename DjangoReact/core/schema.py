@@ -1,11 +1,15 @@
 import graphene
+from simple_app.schema import Query as SimpleAppQuery
+from simple_app.schema import Mutation as SimpleAppMutation
 
-
-class Queries(graphene.Schema):
+class Queries(SimpleAppQuery, graphene.ObjectType):
     """ Schema for messages """
 
-    message = graphene.String()
+    dummy = graphene.String()
 
 
-schema = graphene.Schema(query=Queries)
+class Mutations(SimpleAppMutation, graphene.ObjectType):
+    pass
 
+
+schema = graphene.Schema(query=Queries, mutation=Mutations)

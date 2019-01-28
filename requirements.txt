@@ -1,2 +1,6 @@
 graphene>=2.0
 Django=2.1.5
+flake8
+djangorestframework
+djangorestframework-jwt
+django-cors-headers
