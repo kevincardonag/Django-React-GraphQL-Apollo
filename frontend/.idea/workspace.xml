@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd712864-56a3-4e35-9ff6-1a92e92e0aa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DjangoReact/simple_app/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Global/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Global/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Global/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Global/css/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/page_404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Django-React-GraphQL-Apollo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Django-React-GraphQL-Apollo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoReact/DjangoReact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoReact/DjangoReact/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoReact/DjangoReact/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoReact/DjangoReact/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoReact/core/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoReact/core/schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DjangoReact/simple_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoReact/simple_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page_404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page_404/page_404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -205,11 +195,12 @@
       <workItem from="1548354726460" duration="2438000" />
       <workItem from="1548681399005" duration="1743000" />
       <workItem from="1548706475036" duration="608000" />
+      <workItem from="1548888958065" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35586000" />
+    <option name="totallyTimeSpent" value="35599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
